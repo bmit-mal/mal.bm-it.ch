@@ -11,3 +11,8 @@ h2 {
     margin-right: 150px;
     margin-left: 700px;
 }
+
+a svg {
+    width: 44px;
+    height: 44px;
+}
