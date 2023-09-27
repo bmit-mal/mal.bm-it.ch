@@ -35,31 +35,6 @@ a:hover {
     background-color: #8bd1ff;
 }
 
-.Name {
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    border: 2px solid;
-    border-radius: 2pc;
-    padding: 15px;
-    width: 10pc;
-    text-align: center;
-    margin-top: 20pc;
-    margin-left: 20pc;
-}
-
-.nameButton {
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    border: 2px solid;
-    border-radius: 50px;
-    padding: 15px;
-    width: 15pc;
-    text-align: center;
-    margin-top: 500px;
-    margin-left: 700px;
-    background-color: white;
-}
-
 body {
     font-family: "Lato", sans-serif;
 }
