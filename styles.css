@@ -3,18 +3,14 @@ html, body {
     padding: 0;
 }
 
-ul li {
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    padding: 0px;
+li {
+    list-style: none;
+}
+.Willkommentext {
     text-align: center;
 }
 
-li {
-    list-style: none;
-    
-}
-.Willkommentext {
+main {
     text-align: center;
 }
 
@@ -22,21 +18,16 @@ a:link {
     text-decoration: none;
 }
 
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: rgb(0, 0, 0);
-}
-
-.active {
-    background-color: #8bd1ff;
-}
-
 body {
     font-family: "Lato", sans-serif;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 .sidenav {
@@ -106,7 +97,9 @@ body {font-family: Arial;}
 
 #tabmenue {
     display: flex;
+    align-items: center;
     justify-content: center;   
+
 }
 
 .tab button:hover {
