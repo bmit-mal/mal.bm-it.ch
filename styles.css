@@ -80,7 +80,7 @@ body {font-family: Arial;}
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
-    width: 400px;
+    width: 500px;
     object-position: center;
 }
 
@@ -115,5 +115,10 @@ body {font-family: Arial;}
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
-    width: 376px;
+    width: 476px;
+}
+
+display {
+    display: grid;
+    grid-template: 50% / 50%;
 }
