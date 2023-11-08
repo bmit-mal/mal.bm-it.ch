@@ -49,4 +49,20 @@ li {
     background-color: #4CAF50;
     border: 0px solid black;
     color: white;
-    padd
+    padding: 1rem 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    }
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
