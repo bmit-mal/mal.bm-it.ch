@@ -1,68 +1,41 @@
 html, body {
-    margin: 0;
-    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-header {
-    display: flex;
-    height: 6rem;
-    width: 100%;
-    background-color: aqua;
-}
-
-@media only screen and (min-width: 600px) {
-    header {
-    display: flex;
-    height: 6rem;
-    width: 100%;
-    background-color: aqua;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    header {
-    background-color: lightblue;
-    }
-}
-
-ul {
     margin: 0;
-    padding: 0;
-    height: 6rem;
 }
 
 li {
     float: left;
     list-style: none;
     padding: 1rem;
+    font-size: 2em;
+    
 }
 
-@media only screen and (max-width: 600px) {
-    .button {
-    visibility: hidden;
-    }
+li a:active {
+    color: blue;
+}
+li a:visited {
+    color: black;
 }
 
-@media only screen and (min-width: 600px) {
-    .button {
-    background-color: #4CAF50;
-    border: 0px solid black;
-    color: white;
-    padding: 1rem 32px;
+main {
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 15px;
-    }
+    padding: 3rem;
 }
 
 footer {
+    display: grid;
     position: fixed;
+    width: 100%;
+    height: 10rem;
+    grid-template-columns: 33.333% 33.334% 33.333%;
+    grid-template-rows: 100%;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
+}
+
+a:link {
+    text-decoration: none;
 }
