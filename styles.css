@@ -4,11 +4,8 @@ html, body {
 }
 
 li {
-    float: left;
-    list-style: none;
     padding: 1rem;
     font-size: 2em;
-    
 }
 
 li a:active {
