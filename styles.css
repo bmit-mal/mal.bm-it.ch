@@ -18,11 +18,12 @@ li a:visited {
 main {
     text-align: center;
     padding: 3rem;
+    height: 100rem;
 }
 
 footer {
     display: grid;
-    width: 100%;
+    position: -webkit-sticky;
     height: 10rem;
     grid-template-columns: 33.333% 33.334% 33.333%;
     grid-template-rows: 100%;
