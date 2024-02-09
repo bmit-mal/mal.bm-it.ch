@@ -14,8 +14,9 @@ main {
     height: 50rem;
 }
 
-
-
+footer {
+    text-align: center;
+}
 
 a:link {
     text-decoration: none;
